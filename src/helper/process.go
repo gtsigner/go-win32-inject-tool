@@ -2,8 +2,28 @@ package helper
 
 import (
 	"github.com/JamesHovious/w32"
+	"syscall"
 	"unsafe"
 )
+
+type (
+	HANDLE uintptr
+	BOOL int32
+)
+
+var (
+	modadvapi32               = syscall.NewLazyDLL("advapi32.dll")
+)
+
+func GetPrivileges() {
+	var token syscall.Token
+	handle, _ := syscall.GetCurrentProcess()
+	//失败
+	if nil != syscall.OpenProcessToken(handle, syscall.TOKEN_ALL_ACCESS, &token) {
+		return
+	}
+	//	syscall.Syscall(procLookupPrivilegeValueW.Addr(),nil,)
+}
 
 type Process struct {
 	ProcessID int
@@ -12,42 +32,31 @@ type Process struct {
 }
 
 //获取进程的名字
-func GetProcessesByName(name string) *Process {
-	handle := w32.CreateToolhelp32Snapshot(w32.TH32CS_SNAPPROCESS, 0)
-	if handle == w32.ERROR_INVALID_HANDLE {
-		return nil
+func GetProcessesByName(exeFile string) (*Process, string) {
+	handle, _ := syscall.CreateToolhelp32Snapshot(syscall.TH32CS_SNAPPROCESS, 0)
+	if handle == 0 {
+		return nil, "创建Snapshot失败"
 	}
-	defer w32.CloseHandle(handle)
-	var entry w32.MODULEENTRY32
+	defer syscall.CloseHandle(handle)
+
+	//定义句柄存储
+	var entry = syscall.ProcessEntry32{}
 	entry.Size = uint32(unsafe.Sizeof(entry))
-
-	success := w32.Module32First(handle, &entry)
-	if !success {
-		return nil
-	}
 	var process Process
-	//比较
-	if name == w32.UTF16PtrToString(&entry.SzModule[0]) {
-		process.Name = w32.UTF16PtrToString(&entry.SzModule[0])
-		process.ProcessID = int(entry.ProcessID)
-		process.Exe = w32.UTF16PtrToString(&entry.SzExePath[0])
-		return &process
-	}
-
 	//定义一个实体类型
 	for true {
-		success = w32.Module32Next(handle, &entry)
-		if !success {
-			return nil
+		if nil != syscall.Process32Next(handle, &entry) {
+			break
 		}
-		processName := w32.UTF16PtrToString(&entry.SzModule[0])
-		if name == processName {
-			process.Name = processName
+		//执行文件的名称
+		_exeFile := w32.UTF16PtrToString(&entry.ExeFile[0])
+		if exeFile == _exeFile {
+			process.Name = _exeFile
 			process.ProcessID = int(entry.ProcessID)
-			process.Exe = w32.UTF16PtrToString(&entry.SzExePath[0])
-			return &process
+			process.Exe = _exeFile
+			return &process, ""
 		}
-		break
+
 	}
-	return nil
+	return nil, "未找到进程"
 }

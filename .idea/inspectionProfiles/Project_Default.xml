@@ -9,6 +9,7 @@
         <function importPath="fmt" name="Println" />
         <function importPath="fmt" name="Print" />
         <function importPath="golang.org/x/sys/windows" name="CloseHandle" />
+        <function importPath="syscall" name="CloseHandle" />
       </functions>
     </inspection_tool>
   </profile>

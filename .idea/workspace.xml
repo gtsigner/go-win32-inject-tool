@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ad7b83a-9703-4fd7-9216-9a205d653f2e" name="Default Changelist" comment="" />
+    <list default="true" id="5ad7b83a-9703-4fd7-9216-9a205d653f2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/wechat/helper.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/win32/call.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/inject.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/inject.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helper/process.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/helper/process.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,45 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helper/inject.go">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/helper/process.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="e#16#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
+              <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,15 +38,39 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LookupPrivilegeValue</find>
+      <find>LookupPrivilegeValueW</find>
+      <find>ADVAPI32.DLL</find>
+      <find>modadvapi32</find>
+      <find>Virtual</find>
+      <find>strin</find>
+      <find>Call</find>
+      <find>Proc</find>
+      <find>string</find>
+      <find>CAll</find>
+      <find>CAll(</find>
+      <find>func Ca</find>
+      <find>func Call</find>
+    </findStrings>
+  </component>
   <component name="GOROOT" path="D:/SdkFiles/Golang/Golang1.11.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/helper/inject.go" />
         <option value="$PROJECT_DIR$/src/helper/processs.go" />
-        <option value="$PROJECT_DIR$/src/helper/process.go" />
-        <option value="$PROJECT_DIR$/src/main.go" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/wechat/helper.go" />
+        <option value="$PROJECT_DIR$/../github.com/JamesHovious/w32/kernel32.go" />
+        <option value="$PROJECT_DIR$/src/helper/process.go" />
+        <option value="$PROJECT_DIR$/src/win32/call.go" />
+        <option value="$PROJECT_DIR$/src/main.go" />
+        <option value="$PROJECT_DIR$/src/helper/inject.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -79,11 +80,15 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,29 +96,28 @@
               <item name="dll_inject_to_wechat" type="b2602c69:ProjectViewProjectNode" />
               <item name="dll_inject_to_wechat" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="dll_inject_to_wechat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dll_inject_to_wechat" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
-    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\golang\src\dll_inject_to_wechat" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,29 +147,38 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="2576" height="1426" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13314785" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13553259" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32869297" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32869297" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39984533" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32972136" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32817337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993808" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32972136" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32817337" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,27 +192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/kernel32.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="489" lean-forward="true" selection-start-line="489" selection-end-line="489" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/typedef.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="668" column="5" selection-start-line="668" selection-start-column="5" selection-end-line="668" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="100" column="4" selection-start-line="100" selection-start-column="4" selection-end-line="100" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/utils.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -207,40 +199,195 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/helper/inject.go">
+    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/constants.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="280">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/psapi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding>
+            <element signature="e#179#210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/syscall.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/user32.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="1136" column="5" selection-start-line="1136" selection-start-column="5" selection-end-line="1136" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wechat/helper.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/unsafe/unsafe.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/helper/process.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        <state relative-caret-position="171">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#16#67#0" expanded="true" />
+            <element signature="e#16#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/encoding/hex/hex.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/strings/strings.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="790" column="5" selection-start-line="790" selection-start-column="5" selection-end-line="790" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/strings/compare.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/types_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="322" column="5" selection-start-line="322" selection-start-column="5" selection-end-line="322" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/typedef.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="200" column="4" selection-start-line="200" selection-start-column="4" selection-end-line="200" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../github.com/JamesHovious/w32/kernel32.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="274" column="5" selection-start-line="274" selection-start-column="5" selection-end-line="274" selection-end-column="5" />
+          <folding>
+            <element signature="e#179#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/zerrors_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="55" column="4" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/builtin/builtin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="254" column="5" selection-start-line="254" selection-start-column="5" selection-end-line="254" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../golang.org/x/text/encoding/encoding.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/syscall_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="69" column="22" lean-forward="true" selection-start-line="69" selection-start-column="22" selection-end-line="69" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/zsyscall_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="202" column="5" selection-start-line="202" selection-start-column="5" selection-end-line="202" selection-end-column="5" />
+          <folding>
+            <element signature="e#67#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/win32/call.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="47" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="47" />
+          <folding>
+            <element signature="e#15#46#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#52#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://D:/SdkFiles/Golang/Golang1.11.4/src/syscall/dll_windows.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/helper/inject.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#16#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
         </state>
       </provider>
     </entry>

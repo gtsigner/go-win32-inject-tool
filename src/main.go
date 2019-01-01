@@ -9,21 +9,9 @@ var (
 
 )
 
-func getWechatInstallExtPath() {
-
-}
-
-func inject() {
-
-}
-
-func unject() {
-
-}
-
 func main() {
-	process := helper.GetProcessesByName("WeChat")
-	println(process)
-	inject()
-
+	dll := "C:\\Users\\Godtoy\\source\\repos\\WechatHookDemo1\\Debug\\GetWxInfo.dll"
+	var wx = "WeChat.exe"
+	err := helper.Inject(wx, dll)
+	println(err)
 }
